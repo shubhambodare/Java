@@ -16,6 +16,8 @@ public class Array {
 		for(Integer X : My_List)
 			System.out.println(X);
 		
+		System.out.println("size is "+My_List.size());
+		
 
 	}
 
