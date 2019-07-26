@@ -6,7 +6,7 @@ public class MyFile {
 
 	public static void main(String[] args) {
 		
-		File file =new File("First.txt");
+		File file =new File("First2.txt");
 		
 		if(!file.exists()) {
 			try {{
@@ -16,6 +16,7 @@ public class MyFile {
 				pw.println("hii it's me...");
 				pw.close();
 				System.out.println("Done");
+				System.out.println("File operation completed succesfully....");
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
