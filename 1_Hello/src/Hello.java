@@ -7,7 +7,7 @@ public class Hello {
 		j=i++;//i=6
 		System.out.println(j);//5
 		j=++i;//7
-		System.out.println(j);//7
+		System.out.println(j);//7 
 		System.out.println(i);//7
 		 
 	}
