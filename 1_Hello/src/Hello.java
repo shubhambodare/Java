@@ -2,8 +2,10 @@
 public class Hello {
 
 	public static void main(String[] args) {
-	
-		System.out.println("hi Shubham");
+		int a=5;
+		short b=3;
+		b=(short)(a);
+		System.out.println("Hi Shubham:-"+b);
 
 	}
 
